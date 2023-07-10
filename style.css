@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Noto Sans Mono', sans-serif;
@@ -993,7 +997,7 @@ footer {
     line-height: 16px;
 }
 
-.footer-list-elements {
+.footer-list-elements-1, .footer-list-elements-2, .footer-list-elements-3, .footer-list-elements-4, .footer-list-elements-5, .footer-list-elements-6, .footer-list-elements-7, .footer-list-elements-8, .footer-list-elements-9, .policy {
     color: #a5a6a9;
     margin-top: 9px;
     margin-bottom: 9px;
@@ -1001,6 +1005,10 @@ footer {
     line-height: 16px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.footer-list-elements-1:hover, .footer-list-elements-2:hover, .footer-list-elements-3:hover, .footer-list-elements-4:hover, .footer-list-elements-5:hover, .footer-list-elements-6:hover, .footer-list-elements-7:hover, .footer-list-elements-8:hover, .footer-list-elements-9:hover, .policy:hover {
+    color: #FCFCFD;
 }
 
 .social-media {
@@ -1015,6 +1023,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 14%;
+    cursor: pointer;
 }
 
 .social-media-icons {
@@ -1023,7 +1032,7 @@ footer {
     margin-right: 6.5%;
 }
 
-.linkedin-background {
+.linkedin-background, .instagram-background, .twitter-background, .youtube-background, .facebook-background {
     background-color: #A5A6A9;
     width: 20%;
     padding: 2%;
@@ -1031,46 +1040,11 @@ footer {
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.instagram-background {
-    background-color: #A5A6A9;
-    width: 20%;
-    padding: 2%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.twitter-background {
-    background-color: #A5A6A9;
-    width: 20%;
-    padding: 2%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.youtube-background {
-    background-color: #A5A6A9;
-    width: 20%;
-    padding: 2%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.facebook-background {
-    background-color: #A5A6A9;
-    width: 20%;
-    padding: 2%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
+.linkedin-background:hover, .instagram-background:hover, .twitter-background:hover, .youtube-background:hover, .facebook-background:hover {
+    background-color: #FCFCFD;
 }
 
 .footer-downside {
@@ -1085,10 +1059,6 @@ footer {
 }
 
 .policy {
-    color: #a5a6a9;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    font-size: 14px;
-    line-height: 16px;
     margin-right: 4%;
+    cursor: pointer;
 }
